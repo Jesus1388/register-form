@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN / PAGE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <form id="form-group">
+        <h2>LOG IN PAGE</h2><br>
+        <h1>Please Compelet Information</h1>
+        <label for="">FULL NAME</label><br><br>
+        <input type="text" placeholder="full name"><br><br>
+        <label for="">Age</label><br><br>
+        <input type="number" placeholder="Age"><br><br>
+        <label for="">Home Address</label><br><br>
+        <input type="text" placeholder="Address"><br><br>
+        <label for="">Univercity Name</label><br><br>
+        <input type="text" placeholder="Univercity"><br><br>
+        <label for="">Second E-mail</label><br><br>
+        <input type="email" placeholder="Second email"><br><br>
+        <label for="">Mother Name</label><br><br>
+        <input type="text" placeholder="mom NAME"><br><br>
+        <label for="">Date of age</label><br><br>
+        <input type="date" placeholder="birthday"><br><br>
+        <label for="">Nationality</label><br><br>
+        <select name="" id="">
+            <option value="">persian</option>
+            <option value="">american</option>
+            <option value="">england</option>
+            <option value="">ferench</option>
+            <option value="">germany</option>
+            <option value="">turkish</option>
+        </select><br><br>
+        <button type="submit">OK</button><br><br>
+        <h3>DIGITAL TARIO/NINJA DEV</h3>
+        <h4>P/A/P</h4>
+    </form>
+    <script>
+        document.getElementById('form-group').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = "alireza.html";
+        });
+        document.getElementById('form-group').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Compelet sign in');
+        });
+    </script>
+</body>
+
+</html>
